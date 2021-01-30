@@ -1,0 +1,41 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Pacifico', sans-serif;
+  text-align: center;
+  font-size: 81px;
+}
+
+.button {
+  font-family: 'Pacifico', sans-serif;
+  height: 56px;
+  font-size: 30px;
+  background-color: #009688;
+  color: #fff;
+  margin: 0 0 24px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:active {
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+.line {
+  font-family: 'Marck Script', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
