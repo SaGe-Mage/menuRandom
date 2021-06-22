@@ -11,7 +11,7 @@ function randomize(list, currentValue) {
   if (list[index] === currentValue || list[index].name === currentValue) {
     return randomize(list, currentValue);
   }
-    return index;
+  return index;
 }
 
 button.addEventListener("click", (event) => {
