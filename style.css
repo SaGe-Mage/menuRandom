@@ -26,9 +26,10 @@
   margin: 0 0 24px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.btn:active {
+.button:active {
   border: 1px solid #000;
   background-color: #000;
 }
