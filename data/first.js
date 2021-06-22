@@ -9,11 +9,16 @@ export const firstList = [
   {name: 'Гырдбзя', isIndependent: true},
   {name: 'Тыква по-гречески', isIndependent: true},
   {name: 'Рис', isIndependent: false},
-  {name: 'Макароны', isIndependent: false},
+  {name: 'Жареные макароны', isIndependent: false},
+  {name: 'Варёные макароны', isIndependent: false},
   {name: 'Греча', isIndependent: false},
   {name: 'Булгур', isIndependent: false},
   {name: 'Перловка', isIndependent: false},
   {name: 'Картошка', isIndependent: false},
+  {name: 'Картошка жареная', isIndependent: false},
+  {name: 'Картофельное пюре', isIndependent: false},
+  {name: 'Картофель по-деревенски', isIndependent: false},
+  {name: 'Картофель отварной', isIndependent: false},
   {name: 'Горох', isIndependent: false},
   {name: 'Капуста', isIndependent: false}
 ];
