@@ -21,8 +21,7 @@
   font-family: 'Pacifico', sans-serif;
   height: 56px;
   font-size: 30px;
-  background-color: #009688;
-  color: #fff;
+  background-color: #528bcc;
   margin: 0 0 24px;
   border: none;
   border-radius: 10px;
@@ -39,4 +38,26 @@
   font-weight: 400;
   font-size: 40px;
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-color: #19191a;
+    color: #e1e3e7;
+  }
+
+  .button {
+    color: #e1e3e7;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .button {
+    color: #ffffff;
+  }
 }
