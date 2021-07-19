@@ -1,5 +1,9 @@
-import {firstList} from './data/first.js';
-import {secondList} from './data/second.js';
+import {
+  firstList
+} from './data/first.js';
+import {
+  secondList
+} from './data/second.js';
 
 const button = document.querySelector(".button");
 const firstLine = document.querySelector(".lineFirst");
