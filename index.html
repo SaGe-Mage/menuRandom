@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta name="theme-color" content="#ffffff"/>
-  <link rel="manifest" href="static/core/manifest/manifest.json">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="material.min.css">
   <link rel="stylesheet" href="style.css">
@@ -26,24 +24,6 @@
     </div>
   </div>
   <script type="module" src="script.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
-          // Registration was successful
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }, function (err) {
-          // registration failed :(
-          console.log('ServiceWorker registration failed: ', err);
-        }).catch(function (err) {
-          console.log(err)
-        });
-      });
-    } else {
-      console.log('service worker is not supported');
-    }
-
-  </script>
 </body>
 
 </html>
