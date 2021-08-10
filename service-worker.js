@@ -1,6 +1,3 @@
-// Должно быть true в production
-var doCache = true;
-
 // Имя кэша
 var CACHE_NAME = 'my-pwa-cache-v2';
 
