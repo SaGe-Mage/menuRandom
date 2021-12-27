@@ -2,20 +2,45 @@
   "name": "Рандомное меню",
   "short_name": "Меню",
   "icons": [{
-      "src": "144x144.png",
+      "src": "maskable_icon_x48.png",
       "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "48x48"
     },
     {
-      "src": "512x512.png",
+      "src": "maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "maskable_icon_x512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "maskable_icon_x196.png",
-      "sizes": "196x196",
+      "src": "maskable_icon.png",
+      "sizes": "640x640",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     }
   ],
   "theme_color": "#ffffff",
