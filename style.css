@@ -53,8 +53,8 @@
 
 .rekt {
   position: absolute;
-  top: 120px;
-  left: 250px;
+  top: 12%;
+  left: 15%;
   rotate: 40deg;
   animation:
     fadeIn 2s ease,
@@ -66,8 +66,8 @@
 
 .cirkle {
   position: absolute;
-  bottom: 120px;
-  right: 250px;
+  bottom: 12%;
+  right: 15%;
   animation-name: fadeIn2;
   animation-duration: 2s;
   height: 30%;
@@ -83,8 +83,8 @@
     rotate: -300deg;
   }
   to {
-    top: 120px;
-    left: 250px;
+    top: 12%;
+    left: 15%;
     rotate: 40deg;
   }
 }
@@ -104,8 +104,8 @@
     right: -300px;
   }
   to {
-  bottom: 120px;
-  right: 250px;
+  bottom: 12%;
+  right: 15%;
   }
 }
 
