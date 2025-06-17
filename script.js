@@ -1,9 +1,5 @@
-import {
-  firstList
-} from './data/first.js';
-import {
-  secondList
-} from './data/second.js';
+import { firstList } from "./data/first.js";
+import { secondList } from "./data/second.js";
 
 const button = document.querySelector(".button");
 const firstLine = document.querySelector(".lineFirst");
@@ -23,9 +19,10 @@ button.addEventListener("click", (event) => {
   let dish = firstList[randomize(firstList, firstLine.textContent)];
   if (dish.isIndependent) {
     firstLine.textContent = dish.name;
-    secondLine.textContent = 'Хватит';
+    secondLine.textContent = "Хватит";
   } else {
     firstLine.textContent = dish.name;
-    secondLine.textContent = secondList[randomize(secondList, secondLine.textContent)];
+    secondLine.textContent =
+      secondList[randomize(secondList, secondLine.textContent)];
   }
-})
+});
