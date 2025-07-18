@@ -50,7 +50,7 @@
   overflow: hidden;
 }
 
-.rekt {
+.rectangle {
   position: absolute;
   top: 12%;
   left: 15%;
@@ -60,7 +60,7 @@
   width: 30vh;
 }
 
-.cirkle {
+.circle {
   position: absolute;
   bottom: 12%;
   right: 15%;
@@ -115,11 +115,11 @@
     color: #e1e3e7;
   }
 
-  .rekt {
+  .rectangle {
     background-color: #a6961d;
   }
 
-  .cirkle {
+  .circle {
     background-color: #a61d1d;
   }
 }
@@ -135,11 +135,11 @@
     color: #ffffff;
   }
 
-  .rekt {
+  .rectangle {
     background-color: #ffeb59;
   }
 
-  .cirkle {
+  .circle {
     background-color: #ff5959;
   }
 }
